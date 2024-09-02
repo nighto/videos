@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Mapa de Vídeos</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css"/>
+  </head>
+  <body>
+    <form id="filter">
+      <label id="countries_label" for="countries"></label>
+      <select id="countries">
+        <option value="" id="countries_all"></option>
+      </select>
+      <label id="types_label" for="types"></label>
+      <select id="types">
+        <option value="" id="types_all"></option>
+      </select>
+      <label id="vehicles_label" for="vehicles"></label>
+      <select id="vehicles">
+        <option value="" id="vehicles_all"></option>
+      </select>
+    </form>
+    <div id="map"></div>
+  </body>
+</html>
