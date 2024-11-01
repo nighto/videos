@@ -6089,6 +6089,16 @@ const data = [
     length: '13:33',
     date: '24/09/2024',
   },
+  {
+    title: '🇩🇰🚋 Aarhus Letbane - Linha 2 - Lystrup ➜ Odder (janela da esquerda)',
+    videoId: 'wKV-8W1fndw',
+    coord: [56.2310704, 10.2351986],
+    vehicle: '🚆',
+    country: '🇩🇰',
+    type: 'ride',
+    length: '1:14:37',
+    date: '01/11/2024',
+  },
 ];
 
 let filteredData = [...data];
