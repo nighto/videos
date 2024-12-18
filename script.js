@@ -6112,7 +6112,7 @@ const data = [
   {
     title: '🇩🇰🚋 Conhecendo o Letbane, VLT de Aarhus na Dinamarca',
     videoId: 'M21rF2L7LiA',
-    coord: [55.9718333, 10.1505062],
+    coord: [56.1721363, 10.2043440],
     vehicle: '🚋',
     country: '🇩🇰',
     type: 'system',
