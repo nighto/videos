@@ -6149,6 +6149,26 @@ const data = [
     length: '7:35',
     date: '18/12/2024',
   },
+  {
+    title: '🇩🇰⛴️ Balsa na Dinamarca: Aarhus - Copenhagen',
+    videoId: 'QUek_3K-z7Q',
+    coord: [56.1520282, 10.2530942],
+    vehicle: '⛴️',
+    country: '🇩🇰',
+    type: 'system',
+    length: '11:59',
+    date: '19/12/2024',
+  },
+  {
+    title: '🇧🇷🚋 Bonde de Santa Teresa - Ramal Paula Mattos - Inauguração do Largo das Neves',
+    videoId: 'YWaOv04xXck',
+    coord: [-22.9162837, -43.1917131],
+    vehicle: '🚃',
+    country: '🇧🇷',
+    type: 'short',
+    length: '0:42',
+    date: '10/01/2025',
+  },
 ];
 
 let filteredData = [...data];
