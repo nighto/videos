@@ -6169,6 +6169,16 @@ const data = [
     length: '0:42',
     date: '10/01/2025',
   },
+  {
+    title: '🇫🇷🚇 Metrô de Paris - Trem MP 73 chegando na estação Place d’Italie',
+    videoId: 'wx8efzG9dds',
+    coord: [48.8309446, 2.3558932],
+    vehicle: '🚇',
+    country: '🇫🇷',
+    type: 'short',
+    length: '0:16',
+    date: '13/01/2025',
+  },
 ];
 
 let filteredData = [...data];
