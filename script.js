@@ -6179,6 +6179,16 @@ const data = [
     length: '0:16',
     date: '13/01/2025',
   },
+  {
+    title: '🇫🇷🚇 Metrô de Paris - Torre Eiffel vista da janela entre as estações Bir-Hakeim e Passy da linha 6',
+    videoId: 'DUlzpPOrBS0',
+    coord: [48.8538898, 2.2893811],
+    vehicle: '🚇',
+    country: '🇫🇷',
+    type: 'short',
+    length: '0:49',
+    date: '14/01/2025',
+  },
 ];
 
 let filteredData = [...data];
