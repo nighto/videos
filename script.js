@@ -6199,6 +6199,26 @@ const data = [
     length: '0:24',
     date: '16/01/2025',
   },
+  {
+    title: '🇫🇷🚂 Disneyland Paris - Locomotiva a vapor vista do Castelo da Alice',
+    videoId: 'amoGD9ir8z4',
+    coord: [48.8747,2.7746],
+    vehicle: '🚂',
+    country: '🇫🇷',
+    type: 'short',
+    length: '1:01',
+    date: '21/01/2025',
+  },
+  {
+    title: '🇫🇷🚂 Disney Paris - Locomotiva a vapor passando entre as estações Fantasyland e Discoveryland',
+    videoId: '9DHW-NKhD7o',
+    coord: [48.8749,2.7749],
+    vehicle: '🚂',
+    country: '🇫🇷',
+    type: 'short',
+    length: '1:25',
+    date: '22/01/2025',
+  },
 ];
 
 let filteredData = [...data];
