@@ -6279,6 +6279,26 @@ const data = [
     length: '55:11',
     date: '18/03/2025',
   },
+  {
+    title: '🚗🇪🇺 Dirigindo na Europa: 🇳🇱 Eindhoven Ring',
+    videoId: 'Lr58ac14wNY',
+    coord: [51.4753048, 5.4962225],
+    vehicle: '🚗',
+    country: '🇳🇱',
+    type: 'car',
+    length: '16:37',
+    date: '21/03/2025',
+  },
+  {
+    title: '🇧🇷🚇 Metrofor - Linha Sul - Chico da Silva ➜ Carlito Benevides (janela da esquerda)',
+    videoId: 'xbXThzWjNbI',
+    coord: [-3.7201378, -38.5353388],
+    vehicle: '🚇',
+    country: '🇧🇷',
+    type: 'ride',
+    length: '37:03',
+    date: '26/03/2025',
+  },
 ];
 
 let filteredData = [...data];
