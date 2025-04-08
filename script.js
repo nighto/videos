@@ -6299,6 +6299,36 @@ const data = [
     length: '37:03',
     date: '26/03/2025',
   },
+  {
+    title: '🚗🇪🇺 Dirigindo na Europa: 🇳🇱 Helmond - Eindhoven via Nuenen',
+    videoId: 'aQSeNqjKjg4',
+    coord: [51.4855594, 5.6573502],
+    vehicle: '🚗',
+    country: '🇳🇱',
+    type: 'car',
+    length: '30:13',
+    date: '28/03/2025',
+  },
+  {
+    title: '🇧🇷🚇 Metrofor - Linha Sul - Chico da Silva ➜ Carlito Benevides (janela da esquerda, timelapse 6x)',
+    videoId: 'LiAw737Vfv8',
+    coord: [-3.7201378, -38.5353388],
+    vehicle: '🚇',
+    country: '🇧🇷',
+    type: 'timelapse',
+    length: '6:11',
+    date: '03/04/2025',
+  },
+  {
+    title: '🇧🇷🚲 Ciclofaixa da Av. Beira-Mar - Centro do Rio',
+    videoId: 'MMZpBVG6IlA',
+    coord: [-22.9393005, -43.1697687],
+    vehicle: '🚲',
+    country: '🇧🇷',
+    type: 'cycleway',
+    length: '2:40',
+    date: '08/04/2025',
+  },
 ];
 
 let filteredData = [...data];
