@@ -6399,6 +6399,16 @@ const data = [
     length: '1:11',
     date: '16/04/2025',
   },
+  {
+    title: '🇧🇷🚊 VLT de Sobral - Linha Sul - Sumaré ➜ COHAB II (janela da esquerda, timelapse 6x)',
+    videoId: 'nTiURWXJjjw',
+    coord: [-3.6981230, -40.3628041],
+    vehicle: '🚊',
+    country: '🇧🇷',
+    type: 'timelapse',
+    length: '3:14',
+    date: '17/04/2025',
+  },
 ];
 
 let filteredData = [...data];
