@@ -152,7 +152,7 @@ const data = [
   {
     title: '🇧🇷Ⓜ️ Emboque do túnel de serviço do metrô no Túnel Sá Freire Alvim',
     videoId: '7ad4r-rdtrQ',
-    coord: [-22.9309412, -43.2382699],
+    coord: [-22.9780328, -43.1929084],
     vehicle: '🚇',
     country: '🇧🇷',
     type: 'short',
