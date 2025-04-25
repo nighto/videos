@@ -6439,6 +6439,26 @@ const data = [
     length: '19:12',
     date: '23/04/2025',
   },
+  {
+    title: '🇧🇷🚊 VLT de Sobral - Linha Norte - Novo Recanto ➜ COHAB III (janela da direita)',
+    videoId: 'dfl7pkY6KxU',
+    coord: [-3.6627366, -40.3412494],
+    vehicle: '🚊',
+    country: '🇧🇷',
+    type: 'ride',
+    length: '20:54',
+    date: '24/04/2025',
+  },
+  {
+    title: '🇧🇷🚊 VLT de Sobral - Linha Norte - COHAB III ➜ Novo Recanto (janela da direita, timelapse 6x)',
+    videoId: 'TNykc9nP4rg',
+    coord: [-3.6662901, -40.3745605],
+    vehicle: '🚊',
+    country: '🇧🇷',
+    type: 'timelapse',
+    length: '3:13',
+    date: '25/04/2025',
+  },
 ];
 
 let filteredData = [...data];
