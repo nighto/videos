@@ -6459,6 +6459,26 @@ const data = [
     length: '3:13',
     date: '25/04/2025',
   },
+  {
+    title: '🇧🇷🚊 VLT de Sobral - Linha Norte - Novo Recanto ➜ COHAB III (janela da direita, timelapse 6x)',
+    videoId: '4UDdIDTPSng',
+    coord: [-3.6627366, -40.3412494],
+    vehicle: '🚊',
+    country: '🇧🇷',
+    type: 'timelapse',
+    length: '3:30',
+    date: '27/04/2025',
+  },
+  {
+    title: '🇧🇷🚇 Metrofor - Linha Sul - Carlito Benevides ➜ Chico da Silva (janela da esquerda, timelapse 6x)',
+    videoId: '_dOLIVFtYDc',
+    coord: [-3.8948129, -38.6205965],
+    vehicle: '🚇',
+    country: '🇧🇷',
+    type: 'timelapse',
+    length: '5:47',
+    date: '28/04/2025',
+  },
 ];
 
 let filteredData = [...data];
