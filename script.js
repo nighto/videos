@@ -3740,7 +3740,7 @@ const data = [
     date: '25/03/2021',
   },
   {
-    title: '🇵🇹Ⓜ️ Metro do Porto - Linha B - Póvoa de Varzim ➜ Estádio do Dragão',
+    title: '🇵🇹Ⓜ️ Metro do Porto - Linha B - Póvoa de Varzim ➜ Estádio do Dragão (janela da esquerda)',
     videoId: 'KbQ-yoZvTMc',
     coord: [41.3777233, -8.7582264],
     vehicle: '🚊',
@@ -6595,7 +6595,7 @@ const i18n = {
 };
 
 const getCountryName = country => {
-  if (i18n[currentI18N] && i18n[currentI18N].countriesNames && i18n[currentI18N].countriesNames[country]) {
+  if (i18n[currentI18N]?.countriesNames?.[country]) {
     return i18n[currentI18N].countriesNames[country];
   }
   if (i18n.en.countriesNames[country]) {
@@ -6605,7 +6605,7 @@ const getCountryName = country => {
 }
 
 const getTypeName = type => {
-  if (i18n[currentI18N] && i18n[currentI18N].typesNames && i18n[currentI18N].typesNames[type]) {
+  if (i18n[currentI18N]?.typesNames?.[type]) {
     return i18n[currentI18N].typesNames[type];
   }
   if (i18n.en.typesNames[type]) {
@@ -6615,10 +6615,10 @@ const getTypeName = type => {
 }
 
 const getVehicleName = vehicle => {
-  if (i18n[currentI18N] && i18n[currentI18N].vehiclesNames && i18n[currentI18N].vehiclesNames[vehicle]) {
+  if (i18n[currentI18N]?.vehiclesNames?.[vehicle]) {
     return i18n[currentI18N].vehiclesNames[vehicle];
   }
-  if (i18n.en.vehiclesNames && i18n.en.vehiclesNames[vehicle]) {
+  if (i18n.en.vehiclesNames?.[vehicle]) {
     return i18n.en.vehiclesNames[vehicle];
   }
   return vehicle;
@@ -6694,12 +6694,12 @@ map.addLayer(markers);
 
 const popupContent = p => `<p>${p.title}</p><iframe width="300" height="160" src="https://www.youtube.com/embed/${p.videoId}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
 
-let tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+const tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 18,
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 });
-let latlng = L.latLng(0,0);
+const latlng = L.latLng(0,0);
 
-let map = L.map('map', {center: latlng, zoom: 2, layers: [tiles]});
+const map = L.map('map', {center: latlng, zoom: 2, layers: [tiles]});
 
 createAndAttachMarkers();
