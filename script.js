@@ -6562,12 +6562,22 @@ const data = [
   {
     title: '🇩🇰🚇 Metrô de Copenhagen - Estação Central - Københavns Hovedbanegård',
     videoId: 'kNWWbqQ170E',
-    coord: [55.671194/12.563317],
+    coord: [55.671194, 12.563317],
     vehicle: '🚇',
     country: '🇩🇰',
     type: 'station',
     length: '5:03',
     date: '24/05/2025',
+  },
+  {
+    title: '🇩🇰🚇 Metrô de Copenhagen - Estação Havneholmen',
+    videoId: 'oGQ9ttmwoXE',
+    coord: [55.6609865, 12.5593142],
+    vehicle: '🚇',
+    country: '🇩🇰',
+    type: 'station',
+    length: '6:46',
+    date: '26/05/2025',
   },
 ];
 
