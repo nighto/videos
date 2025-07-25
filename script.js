@@ -6659,6 +6659,16 @@ const data = [
     length: '0:17',
     date: '24/07/2025',
   },
+  {
+    title: '🇮🇹🚄 Trenitalia - Trem expresso Intercity passando pela estação Vernazza',
+    videoId: 'Cz_qVz_DOhM',
+    coord: [44.1350299, 9.6845448],
+    vehicle: '🚆',
+    country: '🇮🇹',
+    type: 'short',
+    length: '0:24',
+    date: '25/07/2025',
+  },
 ];
 
 let filteredData = [...data];
