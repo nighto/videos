@@ -6669,6 +6669,36 @@ const data = [
     length: '0:24',
     date: '25/07/2025',
   },
+  {
+    title: '🇮🇹🚆 Trenitalia - Trem Hitachi Caravaggio Rock chegando na estação Vernazza',
+    videoId: 'Pt-Wx6Ypq3g',
+    coord: [44.1350299, 9.6845448],
+    vehicle: '🚆',
+    country: '🇮🇹',
+    type: 'short',
+    length: '0:46',
+    date: '26/07/2025',
+  },
+  {
+    title: '🇮🇹🚆 Trenitalia - Trem Hitachi Caravaggio Rock partindo da estação Riomaggiore',
+    videoId: 'nhm5XwKuUR4',
+    coord: [44.1006168, 9.7361425],
+    vehicle: '🚆',
+    country: '🇮🇹',
+    type: 'short',
+    length: '0:58',
+    date: '28/07/2025',
+  },
+  {
+    title: '🇮🇹🚄 Trenitalia - Trem de alta velociade Frecciabianca passando pela estação Riomaggiore',
+    videoId: 'I7KvGcrYyDY',
+    coord: [44.1006168, 9.7361425],
+    vehicle: '🚆',
+    country: '🇮🇹',
+    type: 'short',
+    length: '0:19',
+    date: '29/07/2025',
+  },
 ];
 
 let filteredData = [...data];
