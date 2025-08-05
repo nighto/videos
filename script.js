@@ -6749,6 +6749,16 @@ const data = [
     length: '0:16',
     date: '04/08/2025',
   },
+  {
+    title: '🇮🇹🚡 Funicular do Castel San Pietro em Verona subindo',
+    videoId: 'Z2Nh4WTjAV0',
+    coord: [45.4487484, 11.0008597],
+    vehicle: '🚡',
+    country: '🇮🇹',
+    type: 'ride',
+    length: '1:39',
+    date: '05/08/2025',
+  },
 ];
 
 let filteredData = [...data];
