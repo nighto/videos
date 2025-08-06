@@ -6759,6 +6759,16 @@ const data = [
     length: '1:39',
     date: '05/08/2025',
   },
+  {
+    title: '🇮🇹🚡 Funicular do Castel San Pietro em Verona descendo',
+    videoId: 'iqZSQ4gTDIg',
+    coord: [45.4486699, 11.0027741],
+    vehicle: '🚡',
+    country: '🇮🇹',
+    type: 'ride',
+    length: '1:41',
+    date: '06/08/2025',
+  },
 ];
 
 let filteredData = [...data];
