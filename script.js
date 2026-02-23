@@ -6969,6 +6969,26 @@ const data = [
     length: '0:33',
     date: '19/11/2025',
   },
+  {
+    title: '🇧🇷🚈 Metrofor - Linha 5 - Expedicionários ➜ Aeroporto (janela da esquerda)',
+    videoId: 'u1cXy8XXNtg',
+    coord: [-3.7713316, -38.5431029],
+    vehicle: '🚊',
+    country: '🇧🇷',
+    type: 'ride',
+    length: '4:35',
+    date: '18/02/2026',
+  },
+  {
+    title: '🇧🇷🚈 Metrofor - Linha 5 - Aeroporto ➜ Expedicionários (janela da esquerda)',
+    videoId: 'NqruSJo9TGk',
+    coord: [-3.7802193, -38.5415317],
+    vehicle: '🚊',
+    country: '🇧🇷',
+    type: 'ride',
+    length: '4:23',
+    date: '19/02/2026',
+  },
 ];
 
 let filteredData = [...data];
