@@ -6989,6 +6989,36 @@ const data = [
     length: '4:23',
     date: '19/02/2026',
   },
+  {
+    title: '🇧🇷🚲 Ciclofaixas em Botafogo: Ruas General Polidoro (Cemitério São João Batista) e Visconde e Silva',
+    videoId: '-hyOoTUub8I',
+    coord: [-22.9589650, -43.1910501],
+    vehicle: '🚲',
+    country: '🇧🇷',
+    type: 'cycleway',
+    length: '6:39',
+    date: '26/02/2026',
+  },
+  {
+    title: '🇧🇷🚲 Ciclovias em Botafogo - Ciclofaixa na Rua Visconde e Silva e sharrow na Rua Pinheiro Guimarães',
+    videoId: 'WEe7iiRSuFY',
+    coord: [-22.9585459, -43.1984701],
+    vehicle: '🚲',
+    country: '🇧🇷',
+    type: 'cycleway',
+    length: '2:11',
+    date: '27/02/2026',
+  },
+  {
+    title: '🇳🇱🚲 Best: Wilhelminadorp até a estação de trem',
+    videoId: 'ggvdHZ5vCLc',
+    coord: [51.4952933, 5.3933142],
+    vehicle: '🚲',
+    country: '🇳🇱',
+    type: 'cycleway',
+    length: '10:28',
+    date: '02/03/2026',
+  },
 ];
 
 let filteredData = [...data];
