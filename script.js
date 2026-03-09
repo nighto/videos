@@ -7019,6 +7019,36 @@ const data = [
     length: '10:28',
     date: '02/03/2026',
   },
+  {
+    title: '🇧🇷🚲 Ciclofaixas na Marquês de São Vicente descendo e Vice-Governador Rubens Berardo (Planetário)',
+    videoId: 'J0QWPmG5xOs',
+    coord: [-22.9822522, -43.2379722],
+    vehicle: '🚲',
+    country: '🇧🇷',
+    type: 'cycleway',
+    length: '6:41',
+    date: '05/03/2026',
+  },
+  {
+    title: '🇧🇷🚲 Ciclofaixa Vice-Governador Rubens Berardo Planetário e Marquês de São Vicente subindo',
+    videoId: '900aB20WjZQ',
+    coord: [-22.9787900, -43.2296856],
+    vehicle: '🚲',
+    country: '🇧🇷',
+    type: 'cycleway',
+    length: '8:03',
+    date: '06/03/2026',
+  },
+  {
+    title: '🇧🇷🚲 Ciclofaixa nas avenidas Professor Pereira Reis e Cidade de Lima até a Francisco Bicalho',
+    videoId: 'nGDHcNz53fQ',
+    coord: [-22.8959326, -43.2030956],
+    vehicle: '🚲',
+    country: '🇧🇷',
+    type: 'cycleway',
+    length: '5:21',
+    date: '09/03/2026',
+  },
 ];
 
 let filteredData = [...data];
