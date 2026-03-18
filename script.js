@@ -7049,6 +7049,16 @@ const data = [
     length: '5:21',
     date: '09/03/2026',
   },
+  {
+    title: '🇧🇷🚲 Ciclofaixa Rua Bartolomeu de Gusmão - entre São Cristóvão e Maracanã',
+    videoId: 'xjISnOWnayI',
+    coord: [-22.9087580, -43.2226634],
+    vehicle: '🚲',
+    country: '🇧🇷',
+    type: 'cycleway',
+    length: '3:17',
+    date: '18/03/2026',
+  },
 ];
 
 let filteredData = [...data];
