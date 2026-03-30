@@ -7059,6 +7059,36 @@ const data = [
     length: '3:17',
     date: '18/03/2026',
   },
+  {
+    title: '🇧🇷🚲 Ciclofaixa na Rua Marquês de Pombal, sentido Lapa',
+    videoId: 'c1iNQg_Wc2M',
+    coord: [-22.9077426, -43.1952778],
+    vehicle: '🚲',
+    country: '🇧🇷',
+    type: 'cycleway',
+    length: '1:27',
+    date: '20/03/2026',
+  },
+  {
+    title: '🇩🇰🚈 Trens da Dinamarca',
+    videoId: 'PiFDFGmh00g',
+    coord: [53.089787,9.177910],
+    vehicle: '🚆',
+    country: '🇩🇰',
+    type: 'short',
+    length: '2:04',
+    date: '27/03/2025',
+  },
+  {
+    title: '🇧🇷🚲 Ciclofaixa na Rua Marquês de Pombal, sentido Central',
+    videoId: 'y7rlHgIO8bg',
+    coord: [-22.9112522, -43.1934563],
+    vehicle: '🚲',
+    country: '🇧🇷',
+    type: 'cycleway',
+    length: '1:47',
+    date: '29/03/2026',
+  },
 ];
 
 let filteredData = [...data];
