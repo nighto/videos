@@ -7159,6 +7159,16 @@ const data = [
     length: '2:24',
     date: '06/05/2025',
   },
+  {
+    title: '🇩🇪🚊 Düsseldorf - Metrô chegando na estação Schadowstraße do U-Bahn (Alemanha)',
+    videoId: 'S3Exy8dkHUY',
+    coord: [51.2265999, 6.7833897],
+    vehicle: '🚊',
+    country: '🇩🇪',
+    type: 'short',
+    length: '0:21',
+    date: '07/05/2025',
+  },
 ];
 
 let filteredData = [...data];
